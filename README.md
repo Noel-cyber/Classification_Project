@@ -67,6 +67,8 @@ The tuned Logistic Regression performed best at finding customers who will churn
 
 ![output 2](https://github.com/user-attachments/assets/e21efcc1-11cc-4bce-8d80-a80a47a44f88)
 
+We can see the model identifies 83.2 % of actual churners (84 out of 249)
+
 
 ## Conclusion
 This project developed a machine learning solution to predict customer churn with 83.2% recall using an optimized logistic regression model. By prioritizing recall during model selection, we ensured the business identifies the maximum number of potential churners, as false negatives (missed churn cases) are more costly than false positives in this scenario.
