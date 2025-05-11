@@ -15,6 +15,11 @@ Some of our clients discontinue using this services each month, and we are not 
  Our prediction is whether a customer will depart (a situation known as churn).
 
  How we gauge success: We'll concentrate on a metric called recall, which indicates the proportion of consumers that actually departed that were accurately identified earlier
+
+Our Objective : 
+
+To build a predictive model that identifies customers at high risk of churning (leaving the company), enabling timely interventions such as personalized offers or improved support, with the goal of reducing overall customer churn and protecting company revenue.
+
 ## Data Understanding
 
 The SyriaTel dataset is available on Kaggle (https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)
