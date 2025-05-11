@@ -35,8 +35,30 @@ There were no missing values
 
 We encoded categorical variables
 
-## Modelling
+## Modelling and Evaluation
 
-## Evaluation
+Baseline Logistic Regression
+
+Recall: 76.2%
+(Could identify 76% of customers who actually churned)
+
+Tuned Logistic Regression (Improved version)
+
+Recall: 83.2%  Best at catching churners
+(Now identifies 83% of churning customers)
+
+Baseline Decision Tree
+
+Recall: 75.2%
+(Simple tree model performed similarly to first logistic regression)
+
+Tuned Decision Tree (Improved version)
+
+Recall: 80.2%
+(Better than baseline but not as good as tuned logistic regression)
+
+The tuned Logistic Regression performed best at finding customers who will churn (highest recall). All models improved when we did tuning. We prioritized recall because it's worse for business to miss a churning customer than to accidentally flag a loyal one
+
 
 ## Conclusion
+This project developed a machine learning solution to predict customer churn with 83.2% recall using an optimized logistic regression model. By prioritizing recall during model selection, we ensured the business identifies the maximum number of potential churners, as false negatives (missed churn cases) are more costly than false positives in this scenario.
